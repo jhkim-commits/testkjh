@@ -20,3 +20,5 @@ show session id <세션ID>
 6. [FW] 로그 수집 (log off 후 10~20초 뒤)
 debug dataplane packet-diag aggregate-logs
 less mp-log pan_packet_diag.log
+
+test용 작성
