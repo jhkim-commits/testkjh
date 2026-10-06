@@ -1,0 +1,22 @@
+2. [FW] 기존 세션 정리 및 flow basic 설정
+clear session all filter destination 23.11.39.202
+debug dataplane packet-diag clear all
+debug dataplane packet-diag clear log log
+debug dataplane packet-diag set filter match source 172.16.2.30 destination 23.11.39.202 destination-port 443
+debug dataplane packet-diag set filter on
+debug dataplane packet-diag set log feature flow basic
+debug dataplane packet-diag set log feature proxy basic
+debug dataplane packet-diag show setting
+
+3. [FW] 로그 시작
+debug dataplane packet-diag set log on
+
+4. 테스트 시작
+5. [FW] 로그 중지 및 세션 확인 (바로 실행)
+debug dataplane packet-diag set log off
+show session all filter destination 23.11.39.202
+show session id <세션ID>
+
+6. [FW] 로그 수집 (log off 후 10~20초 뒤)
+debug dataplane packet-diag aggregate-logs
+less mp-log pan_packet_diag.log
