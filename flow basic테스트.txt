@@ -21,7 +21,6 @@ show session id <세션ID>
 debug dataplane packet-diag aggregate-logs
 less mp-log pan_packet_diag.log
 
-test용 작성
-test12345
+te
 ug dataplane packet-diag aggregate-logs
 less mp-log pan_packet_diag.log
