@@ -23,3 +23,4 @@ less mp-log pan_packet_diag.log
 
 test용 작성
 test12345
+cnrkxptmxm
