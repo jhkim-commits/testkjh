@@ -22,6 +22,4 @@ debug dataplane packet-diag aggregate-logs
 less mp-log pan_packet_diag.log
 
 te
-ug dataplane packet-diag aggregate-logs
-less mp-log pan_packet_diag.log
-jhvjhfjyfuyfuyfuyf
+ug dataplane
