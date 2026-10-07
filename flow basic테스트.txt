@@ -22,13 +22,3 @@ debug dataplane packet-diag aggregate-logs
 less mp-log pan_packet_diag.log
 
 
-gegwegwege
-wegwegwg
-
-wegwegweg
-1번테스트
-2번테스트
-3번테스느
-4번테스느
-5번테스트
-6번테스트
