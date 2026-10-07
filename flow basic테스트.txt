@@ -21,3 +21,5 @@ show session id <세션ID>
 debug dataplane packet-diag aggregate-logs
 less mp-log pan_packet_diag.log
 
+wegwegwg
+
